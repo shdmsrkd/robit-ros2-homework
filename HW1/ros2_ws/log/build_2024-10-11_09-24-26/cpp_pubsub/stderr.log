@@ -1,0 +1,7 @@
+[01m[K/home/eungang/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kturtlesim/srv/teleport_absolute.hpp: 그런 파일이나 디렉터리가 없습니다
+    3 | #include [01;31m[K<turtlesim/srv/teleport_absolute.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] 오류 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] 오류 2
+gmake: *** [Makefile:146: all] 오류 2

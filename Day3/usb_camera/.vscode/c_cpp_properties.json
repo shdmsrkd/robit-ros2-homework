@@ -1,0 +1,37 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/eungang/ros2_ws/install/turtlesim_draw/include/**",
+        "/home/eungang/ros2_ws/install/turtle_control/include/**",
+        "/home/eungang/ros2_ws/install/my_game_pkg/include/**",
+        "/home/eungang/ros2_ws/install/image_recognition_msgs/include/**",
+        "/home/eungang/ros2_ws/install/custom_interfaces/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/eungang/ros2_ws/src/cpp_pubsub/include/**",
+        "/home/eungang/ros2_ws/src/custom_interfaces/include/**",
+        "/home/eungang/ros2_ws/src/image_recognition/image_projection/dual_fisheye_camera/include/**",
+        "/home/eungang/ros2_ws/src/image_recognition/image_projection/pan_tilt_camera/include/**",
+        "/home/eungang/ros2_ws/src/image_recognition/image_projection/usb_camera/include/**",
+        "/home/eungang/ros2_ws/src/my_game_pkg/include/**",
+        "/home/eungang/ros2_ws/src/publisher/include/**",
+        "/home/eungang/ros2_ws/src/qt_gui_ros/include/**",
+        "/home/eungang/ros2_ws/src/subscriber/include/**",
+        "/home/eungang/ros2_ws/src/test/include/**",
+        "/home/eungang/ros2_ws/src/turtle_control/include/**",
+        "/home/eungang/ros2_ws/src/turtlesim_draw/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

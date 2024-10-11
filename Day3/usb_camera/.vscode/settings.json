@@ -1,0 +1,24 @@
+{
+  "python.autoComplete.extraPaths": [
+    "/home/eungang/ros2_ws/install/yolo_segmentation/lib/python3.10/site-packages",
+    "/home/eungang/ros2_ws/install/yolo_detection/lib/python3.10/site-packages",
+    "/home/eungang/ros2_ws/install/video_to_ros2_topic/lib/python3.10/site-packages",
+    "/home/eungang/ros2_ws/install/turtle_control/local/lib/python3.10/dist-packages",
+    "/home/eungang/ros2_ws/install/image_to_ros2_topic/lib/python3.10/site-packages",
+    "/home/eungang/ros2_ws/install/image_recognition_msgs/local/lib/python3.10/dist-packages",
+    "/home/eungang/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages",
+    "/opt/ros/humble/lib/python3.10/site-packages",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages"
+  ],
+  "python.analysis.extraPaths": [
+    "/home/eungang/ros2_ws/install/yolo_segmentation/lib/python3.10/site-packages",
+    "/home/eungang/ros2_ws/install/yolo_detection/lib/python3.10/site-packages",
+    "/home/eungang/ros2_ws/install/video_to_ros2_topic/lib/python3.10/site-packages",
+    "/home/eungang/ros2_ws/install/turtle_control/local/lib/python3.10/dist-packages",
+    "/home/eungang/ros2_ws/install/image_to_ros2_topic/lib/python3.10/site-packages",
+    "/home/eungang/ros2_ws/install/image_recognition_msgs/local/lib/python3.10/dist-packages",
+    "/home/eungang/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages",
+    "/opt/ros/humble/lib/python3.10/site-packages",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages"
+  ]
+}
