@@ -1,0 +1,65 @@
+[0.009s] Invoking command in '/home/eungang/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/eungang/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/eungang/ros2_ws/install/cpp_pubsub
+[0.070s] -- The C compiler identification is GNU 11.4.0
+[0.125s] -- The CXX compiler identification is GNU 11.4.0
+[0.134s] -- Detecting C compiler ABI info
+[0.201s] -- Detecting C compiler ABI info - done
+[0.205s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.205s] -- Detecting C compile features
+[0.205s] -- Detecting C compile features - done
+[0.207s] -- Detecting CXX compiler ABI info
+[0.263s] -- Detecting CXX compiler ABI info - done
+[0.267s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.267s] -- Detecting CXX compile features
+[0.267s] -- Detecting CXX compile features - done
+[0.269s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.358s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.412s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.442s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.445s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.452s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.460s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.472s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.502s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.504s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.570s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.587s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.613s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.619s] -- Looking for pthread.h
+[0.670s] -- Looking for pthread.h - found
+[0.670s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.722s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.723s] -- Found Threads: TRUE  
+[0.795s] -- Configuring done
+[0.802s] -- Generating done
+[0.803s] -- Build files have been written to: /home/eungang/ros2_ws/build/cpp_pubsub
+[0.810s] Invoked command in '/home/eungang/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/eungang/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/eungang/ros2_ws/install/cpp_pubsub
+[0.811s] Invoking command in '/home/eungang/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eungang/ros2_ws/build/cpp_pubsub -- -j16 -l16
+[0.847s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[0.847s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[3.421s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[3.531s] [ 75%] Built target talker
+[5.652s] [100%] [32m[1mLinking CXX executable listener[0m
+[5.854s] [100%] Built target listener
+[5.865s] Invoked command in '/home/eungang/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eungang/ros2_ws/build/cpp_pubsub -- -j16 -l16
+[5.899s] Invoking command in '/home/eungang/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eungang/ros2_ws/build/cpp_pubsub
+[5.904s] -- Install configuration: ""
+[5.904s] -- Installing: /home/eungang/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[5.905s] -- Set runtime path of "/home/eungang/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[5.905s] -- Installing: /home/eungang/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[5.908s] -- Set runtime path of "/home/eungang/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[5.908s] -- Installing: /home/eungang/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[5.908s] -- Installing: /home/eungang/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[5.908s] -- Installing: /home/eungang/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[5.908s] -- Installing: /home/eungang/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[5.908s] -- Installing: /home/eungang/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[5.908s] -- Installing: /home/eungang/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[5.908s] -- Installing: /home/eungang/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[5.908s] -- Installing: /home/eungang/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[5.909s] -- Installing: /home/eungang/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[5.909s] -- Installing: /home/eungang/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[5.909s] -- Installing: /home/eungang/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[5.909s] -- Installing: /home/eungang/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[5.909s] -- Installing: /home/eungang/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[5.909s] -- Installing: /home/eungang/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[5.909s] -- Installing: /home/eungang/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[5.911s] Invoked command in '/home/eungang/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eungang/ros2_ws/build/cpp_pubsub

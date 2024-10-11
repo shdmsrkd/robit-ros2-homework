@@ -1,0 +1,46 @@
+[0.010s] Invoking command in '/home/eungang/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eungang/ros2_ws/build/cpp_pubsub -- -j16 -l16
+[0.052s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.066s] [ 50%] Built target listener
+[0.068s] [ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[1.488s] [01m[K/home/eungang/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In constructor ‘[01m[KTeleopPublisher::TeleopPublisher()[m[K’:
+[1.488s] [01m[K/home/eungang/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:15:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[1.488s]    15 |         [01;31m[Kpublisher_[m[K = this->create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel", 10);
+[1.488s]       |         [01;31m[K^~~~~~~~~~[m[K
+[1.488s]       |         [32m[Krmw_publisher_t[m[K
+[1.493s] [01m[K/home/eungang/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:16:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[1.493s]    16 |         [01;31m[Ktimer_[m[K = this->create_wall_timer(std::chrono::milliseconds(100), std::bind(&TeleopPublisher::timer_callback, this));
+[1.493s]       |         [01;31m[K^~~~~~[m[K
+[1.493s]       |         [32m[Ktimer_t[m[K
+[1.502s] [01m[K/home/eungang/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid TeleopPublisher::timer_callback()[m[K’:
+[1.502s] [01m[K/home/eungang/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:66:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[1.502s]    66 |                     [01;31m[Kpublisher_[m[K->publish(twist);
+[1.502s]       |                     [01;31m[K^~~~~~~~~~[m[K
+[1.502s]       |                     [32m[Krmw_publisher_t[m[K
+[1.506s] [01m[K/home/eungang/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:77:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[1.506s]    77 |                 [01;31m[Kpublisher_[m[K->publish(twist);
+[1.506s]       |                 [01;31m[K^~~~~~~~~~[m[K
+[1.506s]       |                 [32m[Krmw_publisher_t[m[K
+[1.510s] [01m[K/home/eungang/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:86:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[1.510s]    86 |                     [01;31m[Kpublisher_[m[K->publish(twist);
+[1.510s]       |                     [01;31m[K^~~~~~~~~~[m[K
+[1.510s]       |                     [32m[Krmw_publisher_t[m[K
+[1.514s] [01m[K/home/eungang/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:92:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[1.514s]    92 |                 [01;31m[Kpublisher_[m[K->publish(twist);
+[1.514s]       |                 [01;31m[K^~~~~~~~~~[m[K
+[1.514s]       |                 [32m[Krmw_publisher_t[m[K
+[1.517s] [01m[K/home/eungang/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:102:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[1.517s]   102 |                     [01;31m[Kpublisher_[m[K->publish(twist);
+[1.517s]       |                     [01;31m[K^~~~~~~~~~[m[K
+[1.517s]       |                     [32m[Krmw_publisher_t[m[K
+[1.521s] [01m[K/home/eungang/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:113:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[1.521s]   113 |                 [01;31m[Kpublisher_[m[K->publish(twist);
+[1.521s]       |                 [01;31m[K^~~~~~~~~~[m[K
+[1.521s]       |                 [32m[Krmw_publisher_t[m[K
+[1.525s] [01m[K/home/eungang/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:118:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[1.525s]   118 |         [01;31m[Kpublisher_[m[K->publish(twist);
+[1.525s]       |         [01;31m[K^~~~~~~~~~[m[K
+[1.525s]       |         [32m[Krmw_publisher_t[m[K
+[1.899s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] 오류 1
+[1.899s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] 오류 2
+[1.899s] gmake: *** [Makefile:146: all] 오류 2
+[1.902s] Invoked command in '/home/eungang/ros2_ws/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eungang/ros2_ws/build/cpp_pubsub -- -j16 -l16
